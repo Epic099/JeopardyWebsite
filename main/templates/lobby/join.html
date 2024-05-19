@@ -1,0 +1,19 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block dependencies %}
+    <link rel="stylesheet" href="{% static 'styles/join.css' %}">
+{% endblock %}
+
+
+{% block content %}
+    <h1>Join a Lobby</h1>
+    <br>
+    <div class="join-form">
+        <input class="id-input" id="id-input" maxlength="8" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <button id="join-btn">Join</button>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/join.js' %}"></script>
+{% endblock %}

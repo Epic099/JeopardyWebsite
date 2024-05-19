@@ -1,0 +1,152 @@
+{
+    "Categories" : {
+        "Gaming" : [
+            ["Wie heißt der Hauptcharakter in der 'Super Mario'-Serie?", "Mario", 100], ["Welches Unternehmen hat die PlayStation entwickelt?","Sony",100], ["In welchem Spiel ist der Charakter 'Link' der Protagonist?", "The Legend of Zelda", 100],
+            ["Was ist die Haupteinheit von In-Game-Währung in 'The Sims'?", "Simoleons", 100], ["Welches Genre von Videospielen beinhaltet hauptsächlich Tanz und Musik?", "Rhythmus-Spiele", 100],
+
+            ["In welchem Jahr wurde das erste 'Grand Theft Auto'-Spiel veröffentlicht?", 1997, 200],
+            ["Wie heißt das Virus in der 'Resident Evil'-Serie?", "T-Virus", 200],
+            ["Was ist der Name des Hauptcharakters in 'The Witcher'-Serie?", "Geralt von Riva", 200],
+            ["Welches Spiel gilt als das meistverkaufte Videospiel aller Zeiten?", "Minecraft", 200],
+            ["Welches Spiel wurde als „Schwierigkeitsgrad: unmöglich“ bekannt, weil es so herausfordernd ist?", "Dark Souls", 200],
+
+            ["Welche Stadt ist die Hauptkulisse in 'GTA: Vice City'?", "Vice City (fiktiv, basierend auf Miami)", 300],
+            ["In welchem Jahr wurde die Xbox 360 von Microsoft veröffentlicht?", "2005", 300],
+            ["Wie heißt das Rollenspiel, das von Bethesda Game Studios entwickelt wurde und in der postapokalyptischen Zukunft spielt?", "Fallout", 300],
+            
+            ["In welchem Spiel ist die 'Pip-Boy' ein wesentliches Ausrüstungsstück?", "Fallout", 400],
+            ["Was war der ursprüngliche Titel von 'The Legend of Zelda: Ocarina of Time' während der Entwicklungsphase?", "Zelda 64", 400],
+            ["Welches Spiel wurde 1998 veröffentlicht und gilt als ein Pionier des Stealth-Genres?", "Metal Gear Solid", 400],
+            ["Wie heißt der Entwickler hinter dem Spiel 'Dark Souls'?", "FromSoftware", 400],
+            ["Wann erschien 'Fortnite' erstmals?", "2017", 400],
+
+            ["Welche Entwicklungsfirma war verantwortlich für das erste 'Metroid'?", "Nintendo R&D1", 500],
+            ["Wie viele Sterne kann man in 'Super Mario 64' insgesamt sammeln?", "120", 500],
+            ["In welchem Spiel spielt man als ein Hacktivist in einer Stadt mit dem fiktiven Namen DedSec?", "Watch Dogs 2", 500]
+        ],
+        "Filme und Serien" : [
+            ["Wie heißt der Hauptcharakter in der Serie 'Breaking Bad'?", "Walter White", 100],
+            ["Welches Unternehmen produziert die Marvel Cinematic Universe Filme?", "Marvel Studios", 100],
+            ["In welcher Stadt spielt die Serie 'Friends'?", "New York", 100],
+            ["Wie heißt der Regisseur des Films 'Inception'?", "Christopher Nolan", 100],
+            ["Welche Serie spielt in einem fiktiven mittelalterlichen Reich namens Westeros?", "Game of Thrones", 100],
+        
+            ["In welchem Jahr wurde der erste 'Star Wars'-Film veröffentlicht?", "1977", 200],
+            ["Wie heißt die Hauptfigur im Film 'The Matrix'?", "Neo", 200],
+            ["Welche Serie handelt von den Machenschaften der Familie Soprano?", "The Sopranos", 200],
+            ["Wer spielte den Charakter Jack Dawson im Film 'Titanic'?", "Leonardo DiCaprio", 200],
+            ["Welcher Filmregisseur ist bekannt für Filme wie 'Pulp Fiction' und 'Kill Bill'?", "Quentin Tarantino", 200],
+        
+            ["Wie heißt der Schauspieler, der in der Serie 'Sherlock' die Rolle des Sherlock Holmes spielt?", "Benedict Cumberbatch", 300],
+            ["In welchem Jahr startete die Serie 'Stranger Things' auf Netflix?", "2016", 300],
+            ["Wer spielte die Hauptrolle im Film 'Mad Max: Fury Road'?", "Tom Hardy", 300],
+            ["Wie heißt die animierte Serie, in der die Familie Simpson die Hauptrolle spielt?", "Die Simpsons", 300],
+            ["Welche Serie zeigt das Leben einer Werwolf-, Hexen- und Vampirgemeinschaft in Mystic Falls?", "The Vampire Diaries", 300],
+        
+            ["Wer führte Regie bei dem Film 'Schindlers Liste'?", "Steven Spielberg", 400],
+            ["Welche Serie dreht sich um das Leben und die Abenteuer von Agent Jack Bauer?", "24", 400],
+            ["In welchem Jahr wurde der Film 'Der Herr der Ringe: Die Gefährten' veröffentlicht?", "2001", 400],
+            ["Welche Serie basiert auf dem Buch 'Das Lied von Eis und Feuer' von George R. R. Martin?", "Game of Thrones", 400],
+            ["Wer spielte den Charakter Hannibal Lecter im Film 'Das Schweigen der Lämmer'?", "Anthony Hopkins", 400],
+        
+            ["Wie heißt die Serie, in der Bryan Cranston einen Chemielehrer spielt, der zum Drogenboss wird?", "Breaking Bad", 500],
+            ["Wie viele Staffeln hat die Serie 'Friends'?", "10", 500],
+            ["Wer führte Regie bei dem Film 'Inception'?", "Christopher Nolan", 500],
+            ["Wie heißt der Hauptcharakter in der Serie 'Doctor Who'?", "Der Doktor", 500],
+            ["In welchem Jahr wurde der erste Film der 'Harry Potter'-Reihe veröffentlicht?", "2001", 500]
+        ],
+        "Da fragt man sich" : [
+            ["Diese Person ist der derzeitige CEO von Tesla.", "Wer ist Elon Musk?", 100],
+            ["Das größte Land der Welt nach Fläche.", "Was ist Russland?", 100],
+            ["Diese Stadt ist die Hauptstadt von Frankreich.", "Was ist Paris?", 100],
+            ["Dieses Tier ist bekannt als der 'König des Dschungels'.", "Was ist der Löwe?", 100],
+            ["Diese Pflanze wird verwendet, um Schokolade herzustellen.", "Was ist der Kakaobaum?", 100],
+        
+            ["Dieser Planet ist der nächste zur Sonne.", "Was ist Merkur?", 200],
+            ["Diese Wissenschaft beschäftigt sich mit der Erforschung des Weltraums.", "Was ist Astronomie?", 200],
+            ["Dieses Element hat das chemische Symbol 'O'.", "Was ist Sauerstoff?", 200],
+            ["Diese Farbe entsteht durch das Mischen von Blau und Gelb.", "Was ist Grün?", 200],
+            ["Dieser Fluss ist der längste der Welt.", "Was ist der Nil?", 200],
+        
+            ["Diese Zahl ist die Quadratwurzel von 144.", "Was ist 12?", 300],
+            ["Dieses Organ pumpt Blut durch den menschlichen Körper.", "Was ist das Herz?", 300],
+            ["Diese physikalische Größe wird in Newton gemessen.", "Was ist die Kraft?", 300],
+            ["Diese Hauptstadt liegt am Bosporus und verbindet Europa und Asien.", "Was ist Istanbul?", 300],
+            ["Dieser Musiker ist bekannt als der 'King of Pop'.", "Wer ist Michael Jackson?", 300],
+        
+            ["Diese Theorie beschreibt die Relativität von Raum und Zeit.", "Was ist die Relativitätstheorie?", 400],
+            ["Diese Struktur ist bekannt als das 'Hirn' der Zelle.", "Was ist der Zellkern?", 400],
+            ["Dieser Schriftsteller schrieb '1984' und 'Animal Farm'.", "Wer ist George Orwell?", 400],
+            ["Dieses physikalische Gesetz beschreibt die Wechselwirkung von Kräften.", "Was ist Newtons drittes Gesetz?", 400],
+            ["Dieses Land hat die meisten Vulkane der Welt.", "Was ist Indonesien?", 400],
+        
+            ["Dieser griechische Philosoph war der Lehrer von Alexander dem Großen.", "Wer ist Aristoteles?", 500],
+            ["Diese Konstante beschreibt die Lichtgeschwindigkeit im Vakuum.", "Was ist c?", 500],
+            ["Diese mathematische Vermutung ist eines der bekanntesten ungelösten Probleme der Mathematik.", "Was ist die Riemannsche Vermutung?", 500],
+            ["Diese Komponistin und Pianistin war die Ehefrau von Robert Schumann.", "Wer ist Clara Schumann?", 500],
+            ["Dieser Nobelpreis wird seit 1969 für herausragende Leistungen in den Wirtschaftswissenschaften verliehen.", "Was ist der Alfred-Nobel-Gedächtnispreis für Wirtschaftswissenschaften?", 500]
+        ],
+        "Brands" : [
+            ["Wann wurde YouTube gegründet?", "2005", 100],
+            ["Welches Unternehmen ist bekannt für sein Logo mit dem angebissenen Apfel?", "Apple", 100],
+            ["Welches Unternehmen produziert die berühmte Softdrink-Marke Coca-Cola?", "The Coca-Cola Company", 100],
+            ["Wie heißt der Gründer von Microsoft?", "Bill Gates", 100],
+            ["Welches Unternehmen hat die Fast-Food-Kette McDonald's gegründet?", "Richard und Maurice McDonald", 100],
+        
+            ["Welches Unternehmen ist für die Suchmaschine Google verantwortlich?", "Alphabet Inc.", 200],
+            ["Wann wurde Amazon gegründet?", "1994", 200],
+            ["Welches Unternehmen produziert die Automobilmarke Lexus?", "Toyota", 200],
+            ["Wie heißt die Modemarke mit dem berühmten krokodilförmigen Logo?", "Lacoste", 200],
+            ["Welches Unternehmen ist für die Spielekonsole PlayStation verantwortlich?", "Sony", 200],
+        
+            ["Wann wurde das Unternehmen Nike gegründet?", "1971", 300],
+            ["Welches Unternehmen besitzt die Luxusmarke Louis Vuitton?", "LVMH", 300],
+            ["Wie heißt die Fluggesellschaft mit dem Kürzel 'DL'?", "Delta Air Lines", 300],
+            ["Welches Unternehmen hat die Kaffeehauskette Starbucks gegründet?", "Jerry Baldwin, Zev Siegl und Gordon Bowker", 300],
+            ["Wie heißt der Gründer von Facebook?", "Mark Zuckerberg", 300],
+        
+            ["Wann wurde das Unternehmen Tesla gegründet?", "2003", 400],
+            ["Welches Unternehmen hat das Smartphone-Betriebssystem Android entwickelt?", "Google", 400],
+            ["Welches Unternehmen produziert die Marke Pampers?", "Procter & Gamble", 400],
+            ["Wie heißt der CEO von Berkshire Hathaway?", "Warren Buffett", 400],
+            ["Welches Unternehmen ist für die Marke Häagen-Dazs bekannt?", "General Mills", 400],
+        
+            ["Wann wurde das Unternehmen IBM gegründet?", "1911", 500],
+            ["Welches Unternehmen ist bekannt für sein Motto 'Just Do It'?", "Nike", 500],
+            ["Wie heißt die Fluggesellschaft mit dem Kürzel 'SQ'?", "Singapore Airlines", 500],
+            ["Welches Unternehmen hat das Social-Media-Netzwerk Instagram gegründet?", "Kevin Systrom und Mike Krieger", 500],
+            ["Welches Unternehmen produziert die Luxusauto-Marke Bentley?", "Volkswagen AG", 500]
+        ],
+        "Welt der Werbung" : [
+            ["'Quadratisch. Praktisch. Gut.'", "Ritter Sport", 100],
+            ["'Ich liebe es.'", "McDonald's", 100],
+            ["'Da weiß man, was man hat.'", "IKEA", 100],
+            ["'Haribo macht Kinder froh und Erwachsene ebenso.'", "Haribo", 100],
+            ["'Wohnst du noch oder lebst du schon?'", "IKEA", 100],
+        
+            ["'Red Bull verleiht Flügel.'", "Red Bull", 200],
+            ["'Alles Müller, oder was?'", "Müller", 200],
+            ["'So muss Technik.'", "Media Markt", 200],
+            ["'Nichts ist unmöglich.'", "Toyota", 200],
+            ["'Dann klappt's auch mit dem Nachbarn.'", "Erdal", 200],
+        
+            ["'Waschmaschinen leben länger mit ...'", "Calgon", 300],
+            ["'Wie gut, dass es Hornbach gibt.'", "Hornbach", 300],
+            ["'Die wahrscheinlich längste Praline der Welt.'", "Ferrero (Duplo)", 300],
+            ["'Geiz ist geil.'", "Saturn", 300],
+            ["'Der feine Unterschied.'", "Hengstenberg", 300],
+        
+            ["'Für das Beste im Mann.'", "Nivea", 400],
+            ["'Mein Haus, mein Auto, mein Boot.'", "Sparkasse", 400],
+            ["'Willst du viel, spül mit ...'", "Pril", 400],
+            ["'So geht Bank heute.'", "Deutsche Bank", 400],
+            ["'Wir lieben Lebensmittel.'", "Edeka", 400],
+        
+            ["'Dafür stehe ich mit meinem Namen.'", "Käpt'n Iglo", 500],
+            ["'Da steckt mehr drin.'", "Tchibo", 500],
+            ["'Guten Freunden gibt man ein Küsschen.'", "Ferrero (Küsschen)", 500],
+            ["'Auf diese Steine können Sie bauen.'", "Ytong", 500],
+            ["'Schönes bleibt.'", "Villeroy & Boch", 500]
+        ]
+    }
+}

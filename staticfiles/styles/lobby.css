@@ -1,0 +1,173 @@
+h1 {
+   text-align: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.roomid {
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.copy_id {
+    height: 80%;
+    background-color: #8956ff;
+    color:white;
+    border-width: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+table td {
+    width: 200px;
+}
+table tr {
+    height: 50px;
+}
+table td, th {
+    text-align: center;
+    justify-content: center; /* Align horizontal */
+}
+
+
+.spacer {
+    height: 100px;
+}
+.spacer-2 {
+    height: 40px;
+}
+.j-item {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8956ff;
+    color: white;
+    border-radius: 50px;
+    border: 0px solid #8956ff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center; /* Align horizontal */
+    align-items: center;
+    height: 50px;
+    width: 150px;
+}
+
+.done {
+    background-color: #362069;
+    color: rgb(95, 95, 95);
+}
+
+.question {
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8956ff;
+    color: white;
+    border-radius: 50px;
+    border: 0px solid #8956ff;
+    text-align: center;
+    font-size: 25px;
+    width: 60%;
+}
+
+.question-top {
+    margin-top: 5px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.category {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+}
+
+.points {
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px;
+    width: 48%;
+}
+.question-down {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+.question-field {
+    width: 100%;
+    text-align: center;
+}
+
+.players {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    height: 30px;
+}
+
+.player {
+    width: 200px;
+    height: 120%;
+    background-color: #8956ff;
+}
+
+
+.buzzer {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    right: 0;
+}
+
+.select {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.right {
+    color: white;
+    background-color: #8956ff;
+    height: 40px;
+    width: 80px;
+}
+.wrong {
+    color: white;
+    background-color: #8956ff;
+    height: 40px;
+    width: 80px;
+}
+
+.skip {
+    color: white;
+    background-color: #8956ff;
+    height: 40px;
+    width: 80px;
+}
+
+.hidden {
+    display: none;
+}

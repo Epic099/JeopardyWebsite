@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.join-form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center; 
+}
+
+.join-form input {
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+}

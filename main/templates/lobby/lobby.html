@@ -1,0 +1,283 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block dependencies %}
+    <link rel="stylesheet" href="{% static 'styles/lobby.css' %}">
+{% endblock %}
+
+
+{% block content %}
+    <div id="lobby_id" data-name="{{lobby_id}}"></div>
+    <h1>Jeopardy</h1>
+    <div class="roomid">Room ID: {{lobby_id}} <button class="copy_id" id="copy_id">Copy</button></div>
+    <br>
+<div id="board">
+    <table>
+        <tr>
+            <td id="0-1">{{c1}}</td>
+            <td id="0-2">{{c2}}</td>
+            <td id="0-3">{{c3}}</td>
+            <td id="0-4">{{c4}}</td>
+            <td id="0-5">{{c5}}</td>
+        </tr>
+        <tr id="spacer-2"></tr>
+        <tr>
+            <td>
+            {% if host == 0 %} <div id="1-1" class="j-item">
+                100
+            </div>
+            {% else %}
+            <button id="1-1" class="j-item" onClick="questionClick('1-1')">
+                100
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="2-1" class="j-item">
+                100
+            </div>
+            {% else %}
+            <button id="2-1" class="j-item" onClick="questionClick('2-1')">
+                100
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="3-1" class="j-item">
+                100
+            </div>
+            {% else %}
+            <button id="3-1" class="j-item" onClick="questionClick('3-1')">
+                100
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="4-1" class="j-item">
+                100
+            </div>
+            {% else %}
+            <button id="4-1" class="j-item" onClick="questionClick('4-1')">
+                100
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="5-1" class="j-item">
+                100
+            </div>
+            {% else %}
+            <button id="5-1" class="j-item" onClick="questionClick('5-1')">
+                100
+            </button>
+            {% endif %}</td>
+        </tr>
+        <tr id="spacer"></tr>
+        <tr>
+            <td>
+            {% if host == 0 %} <div id="1-2" class="j-item">
+                200
+            </div>
+            {% else %}
+            <button id="1-2" class="j-item" onClick="questionClick('1-2')">
+                200
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="2-2" class="j-item">
+                200
+            </div>
+            {% else %}
+            <button id="2-2" class="j-item" onClick="questionClick('2-2')">
+                200
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="3-2" class="j-item">
+                200
+            </div>
+            {% else %}
+            <button id="3-2" class="j-item" onClick="questionClick('3-2')">
+                200
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="4-2" class="j-item">
+                200
+            </div>
+            {% else %}
+            <button id="4-2" class="j-item" onClick="questionClick('4-2')">
+                200
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="5-2" class="j-item">
+                200
+            </div>
+            {% else %}
+            <button id="5-2" class="j-item" onClick="questionClick('5-2')">
+                200
+            </button>
+            {% endif %}</td>
+        </tr>
+        <tr id="spacer"></tr>
+        <tr>
+            <td>
+            {% if host == 0 %} <div id="1-3" class="j-item">
+                300
+            </div>
+            {% else %}
+            <button id="1-3" class="j-item" onClick="questionClick('1-3')">
+                300
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="2-3" class="j-item">
+                300
+            </div>
+            {% else %}
+            <button id="2-3" class="j-item" onClick="questionClick('2-3')">
+                300
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="3-3" class="j-item">
+                300
+            </div>
+            {% else %}
+            <button id="3-3" class="j-item" onClick="questionClick('3-3')">
+                300
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="4-3" class="j-item">
+                300
+            </div>
+            {% else %}
+            <button id="4-3" class="j-item" onClick="questionClick('4-3')">
+                300
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="5-3" class="j-item">
+                300
+            </div>
+            {% else %}
+            <button id="5-3" class="j-item" onClick="questionClick('5-3')">
+                300
+            </button>
+            {% endif %}</td>
+        </tr>
+        <tr id="spacer"></tr>
+        <tr>
+            <td>
+            {% if host == 0 %} <div id="1-4" class="j-item">
+                400
+            </div>
+            {% else %}
+            <button id="1-4" class="j-item" onClick="questionClick('1-4')">
+                400
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="2-4" class="j-item">
+                400
+            </div>
+            {% else %}
+            <button id="2-4" class="j-item" onClick="questionClick('2-4')">
+                400
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="3-4" class="j-item">
+                400
+            </div>
+            {% else %}
+            <button id="3-4" class="j-item" onClick="questionClick('3-4')">
+                400
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="4-4" class="j-item">
+                400
+            </div>
+            {% else %}
+            <button id="4-4" class="j-item" onClick="questionClick('4-4')">
+                400
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="5-4" class="j-item">
+                400
+            </div>
+            {% else %}
+            <button id="5-4" class="j-item" onClick="questionClick('5-4')">
+                400
+            </button>
+            {% endif %}</td>
+        </tr>
+        <tr id="spacer"></tr>
+        <tr>
+            <td>
+            {% if host == 0 %} <div id="1-5" class="j-item">
+                500
+            </div>
+            {% else %}
+            <button id="1-5" class="j-item" onClick="questionClick('1-5')">
+                500
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="2-5" class="j-item">
+                500
+            </div>
+            {% else %}
+            <button id="2-5" class="j-item" onClick="questionClick('2-5')">
+                500
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="3-5" class="j-item">
+                500
+            </div>
+            {% else %}
+            <button id="3-5" class="j-item" onClick="questionClick('3-5')">
+                500
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="4-5" class="j-item">
+                500
+            </div>
+            {% else %}
+            <button id="4-5" class="j-item" onClick="questionClick('4-5')">
+                500
+            </button>
+            {% endif %}</td>
+            <td>{% if host == 0 %} <div id="5-5" class="j-item">
+                500
+            </div>
+            {% else %}
+            <button id="5-5" class="j-item" onClick="questionClick('5-5')">
+                500
+            </button>
+            {% endif %}</td>
+        </tr>
+    </table>
+</div>
+<div class="question hidden" id="question">
+    <div class="question-top" id="top">
+        <span class="category" id="category">Category</span>
+        <span class="points" id="points">Points</span>
+    </div>
+    <div class="question-down">
+        <span class="question-field" id="question-field">?</span>
+    </div>
+</div>
+
+<div class="players" id="players">
+    {% for player in players %}
+        <div class="player" id="{{player.user.username}}">
+                {{player.user.username}}: 0
+        </div>
+    {% endfor %}
+</div>
+<br>
+{% if host == 1 %}
+<div class="question hidden" id="answer">
+
+</div>
+<br><br>
+<div class="select hidden" id="select">
+    <button class="right" id="right">right</button>
+    <button class="wrong" id="wrong">wrong</button>
+    <button class="skip" id="skip">skip</button>
+</div>
+{% else %}
+<button class="buzzer hidden" id="buzzer"></button>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if host == 0%}
+    <script src="{% static 'js/lobby.js' %}"></script>
+{% else %}
+<script src="{% static 'js/lobby_host.js' %}"></script>
+{% endif %}
+{% endblock %}
